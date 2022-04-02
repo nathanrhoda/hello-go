@@ -11,8 +11,8 @@ func Woof() {
 	fmt.Printf("The word is %v and the Integer is %d \n", n, i)
 
 	var f float64 = 0.5
-	fmt.Printf("Float: %v", f)
+	fmt.Printf("Float: %v \n", f)
 
 	var b bool = false
-	fmt.Printf("Bool: %v", b)
+	fmt.Printf("Bool: %v \n", b)
 }
