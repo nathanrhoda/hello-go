@@ -5,14 +5,14 @@ import "fmt"
 func Woof() {
 
 	var n string = "Boom"
-	fmt.Println("String variable: " + n)
+	fmt.Println("String variable: ", n)
 
 	var i int = 100
-	fmt.Println(i)
+	fmt.Printf("The word is %v and the Integer is %d \n", n, i)
 
 	var f float64 = 0.5
-	fmt.Println(f)
+	fmt.Printf("Float: %v", f)
 
 	var b bool = false
-	fmt.Println(b)
+	fmt.Printf("Bool: %v", b)
 }
