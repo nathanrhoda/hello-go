@@ -7,13 +7,18 @@ import (
 )
 
 func Cast() {
-	var i int = 90
+
+	//constants can be declared with and without type
+	const iConst = 90
+	const i int = 90
 	var f float64 = float64(i)
 	fmt.Printf("%.2f\n", f)
+	fmt.Printf("Constant: %v \n", iConst)
 
 	// Losing Precision
 	var fNumber float64 = 45.89
 	var iNumber int = int(fNumber)
+	fmt.Printf("%v\n", iNumber)
 	fmt.Printf("%v\n", iNumber)
 
 	// String Conversion
