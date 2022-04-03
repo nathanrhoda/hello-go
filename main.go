@@ -13,6 +13,6 @@ func main() {
 	fmt.Println(testPackage.Greet())
 	testPackage2.Mew()
 	varPackage.Woof()
-	inputPackage.Input()
-
+	//inputPackage.Input()
+	inputPackage.InputWithErrors()
 }
