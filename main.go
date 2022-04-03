@@ -2,7 +2,9 @@ package main
 
 import (
 	"fmt"
-	"main/inputPackage"
+	"main/castingPackage"
+
+	//"main/inputPackage"
 	"main/testPackage"
 	"main/testPackage2"
 	"main/typePackage"
@@ -15,7 +17,10 @@ func main() {
 	testPackage2.Mew()
 	varPackage.Woof()
 	//inputPackage.Input()
-	inputPackage.InputWithErrors()
+	//inputPackage.InputWithErrors()
 
 	typePackage.TypeFunction()
+
+	castingPackage.Cast()
+	castingPackage.StrCast()
 }
