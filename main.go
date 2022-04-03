@@ -5,6 +5,7 @@ import (
 	"main/inputPackage"
 	"main/testPackage"
 	"main/testPackage2"
+	"main/typePackage"
 	"main/varPackage"
 )
 
@@ -15,4 +16,6 @@ func main() {
 	varPackage.Woof()
 	//inputPackage.Input()
 	inputPackage.InputWithErrors()
+
+	typePackage.TypeFunction()
 }
