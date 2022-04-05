@@ -5,6 +5,7 @@ import (
 	"main/castingPackage"
 
 	//"main/inputPackage"
+	"main/operatorPackage"
 	"main/testPackage"
 	"main/testPackage2"
 	"main/typePackage"
@@ -23,4 +24,5 @@ func main() {
 
 	castingPackage.Cast()
 	castingPackage.StrCast()
+	operatorPackage.Operator()
 }
