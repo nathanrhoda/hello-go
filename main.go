@@ -5,6 +5,7 @@ import (
 	"main/castingPackage"
 
 	//"main/inputPackage"
+	"main/arrayPackage"
 	"main/operatorPackage"
 	"main/testPackage"
 	"main/testPackage2"
@@ -25,4 +26,7 @@ func main() {
 	castingPackage.Cast()
 	castingPackage.StrCast()
 	operatorPackage.Operator()
+	arrayPackage.ArrayFunction()
+	arrayPackage.Slice()
+	arrayPackage.Map()
 }
