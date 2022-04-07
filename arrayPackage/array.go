@@ -45,5 +45,18 @@ func Slice() {
 }
 
 func Map() {
-	fmt.Println("Map")
+	codes := map[string]string{"en": "English", "fr": "French"}
+	fmt.Println(codes)
+
+	codes["en"] = "Engels"
+	fmt.Println(codes)
+	fmt.Println("Length: ", len(codes))
+	fmt.Println(codes["en"])
+	fmt.Println(codes["fr"])
+	value, found := codes["fr"]
+	fmt.Println(value, found)
+	value1, found1 := codes["hh"]
+	fmt.Println(value1, found1)
+	delete(codes, "en")
+	fmt.Println(codes)
 }
