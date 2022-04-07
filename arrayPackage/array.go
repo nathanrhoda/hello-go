@@ -30,7 +30,18 @@ func ArrayFunction() {
 }
 
 func Slice() {
-	fmt.Println("Slice")
+	arraySlice := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	sliceName := arraySlice[1:8]
+	fmt.Println(sliceName)
+
+	slicedSlice := sliceName[0:2]
+	fmt.Println(slicedSlice)
+
+	slicery := make([]int, 5, 10)
+	fmt.Println(slicery)
+	fmt.Println("Length: ", len(slicery))
+	fmt.Println("Capacity: ", cap(slicery))
+	//copy / make
 }
 
 func Map() {
