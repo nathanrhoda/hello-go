@@ -6,6 +6,7 @@ import (
 
 	//"main/inputPackage"
 	"main/arrayPackage"
+	"main/functionPackage"
 	"main/operatorPackage"
 	"main/testPackage"
 	"main/testPackage2"
@@ -29,4 +30,5 @@ func main() {
 	arrayPackage.ArrayFunction()
 	arrayPackage.Slice()
 	arrayPackage.Map()
+	functionPackage.Function()
 }
