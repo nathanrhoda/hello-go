@@ -14,6 +14,14 @@ func Function() {
 	fmt.Println(msg)
 
 	fmt.Println(Recursive(5))
+	fmt.Println(AnonymousFunction())
+
+	bb := func(l int, b int) int {
+		return l * b
+	}(1, 2)
+
+	fmt.Printf("%T \n", bb)
+	fmt.Println(bb)
 }
 
 func addNumbers(a int, b int) int {
@@ -45,4 +53,13 @@ func Recursive(n int) int {
 		product = product * i
 	}
 	return product
+}
+
+func AnonymousFunction() int {
+	x := func(l int, b int) int {
+		return l * b
+	}
+
+	fmt.Printf("%T \n", x)
+	return x(20, 30)
 }
