@@ -10,6 +10,8 @@ func Function() {
 	fmt.Println(multiReturnWithName())
 	fmt.Println(Variadic("loop", 1, 2, 3, 4))
 	fmt.Println(Variadic("Variadic", 1, 2))
+	msg, _ := Variadic("Tame", 1, 2, 3)
+	fmt.Println(msg)
 }
 
 func addNumbers(a int, b int) int {
