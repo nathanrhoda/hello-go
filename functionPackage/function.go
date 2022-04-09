@@ -12,6 +12,8 @@ func Function() {
 	fmt.Println(Variadic("Variadic", 1, 2))
 	msg, _ := Variadic("Tame", 1, 2, 3)
 	fmt.Println(msg)
+
+	fmt.Println(Recursive(5))
 }
 
 func addNumbers(a int, b int) int {
@@ -31,4 +33,16 @@ func multiReturnWithName() (num int, bark string) {
 
 func Variadic(looper string, numbers ...int) (string, []int) {
 	return looper, numbers
+}
+
+func Recursive(n int) int {
+	if n == 1 {
+		return n
+	}
+
+	product := 1
+	for i := 1; i <= n; i++ {
+		product = product * i
+	}
+	return product
 }
