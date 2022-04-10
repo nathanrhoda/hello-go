@@ -17,4 +17,8 @@ func Input() {
 	pointerVar := &i
 	fmt.Println(pointerVar)
 	fmt.Println(*pointerVar)
+
+	*pointerVar = 12
+	fmt.Println(i)
+	fmt.Println(*pointerVar)
 }
