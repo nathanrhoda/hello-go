@@ -7,6 +7,7 @@ import (
 	//"main/inputPackage"
 	orderFunctionPackage "main/OrderFunctionPackage"
 	"main/arrayPackage"
+	"main/deferPackage"
 	"main/functionPackage"
 	"main/operatorPackage"
 	"main/testPackage"
@@ -33,4 +34,5 @@ func main() {
 	arrayPackage.Map()
 	functionPackage.Function()
 	orderFunctionPackage.OrderFunctions()
+	deferPackage.Defer()
 }
