@@ -11,6 +11,7 @@ import (
 	"main/functionPackage"
 	"main/operatorPackage"
 	"main/pointerPackage"
+	"main/structPackage"
 	"main/testPackage"
 	"main/testPackage2"
 	"main/typePackage"
@@ -37,4 +38,5 @@ func main() {
 	orderFunctionPackage.OrderFunctions()
 	deferPackage.Defer()
 	pointerPackage.Input()
+	structPackage.Struct()
 }
