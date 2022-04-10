@@ -5,6 +5,7 @@ import (
 	"main/castingPackage"
 
 	//"main/inputPackage"
+	orderFunctionPackage "main/OrderFunctionPackage"
 	"main/arrayPackage"
 	"main/functionPackage"
 	"main/operatorPackage"
@@ -31,4 +32,5 @@ func main() {
 	arrayPackage.Slice()
 	arrayPackage.Map()
 	functionPackage.Function()
+	orderFunctionPackage.OrderFunctions()
 }
