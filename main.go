@@ -9,6 +9,7 @@ import (
 	"main/arrayPackage"
 	"main/deferPackage"
 	"main/functionPackage"
+	"main/methodSetPackage"
 	"main/operatorPackage"
 	"main/pointerPackage"
 	"main/structPackage"
@@ -39,4 +40,5 @@ func main() {
 	deferPackage.Defer()
 	pointerPackage.Input()
 	structPackage.Struct()
+	methodSetPackage.MethodSet()
 }
