@@ -8,6 +8,7 @@ import (
 	"main/arrayPackage"
 	"main/deferPackage"
 	"main/functionPackage"
+	"main/interfacePackage"
 	"main/methodSetPackage"
 	"main/operatorPackage"
 	"main/orderFunctionPackage"
@@ -43,4 +44,5 @@ func main() {
 	structPackage.Struct()
 	methodSetPackage.MethodSet()
 	studentMethodSetPackage.StudentMethods()
+	interfacePackage.InterfaceMethod()
 }

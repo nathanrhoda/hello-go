@@ -15,7 +15,7 @@ func StudentMethods() {
 	}
 
 	s.displayName()
-	fmt.Printf("%.2f%%", s.calculatePercentage())
+	fmt.Printf("%.2f%%\n", s.calculatePercentage())
 }
 func (s *Student) displayName() {
 	fmt.Println(s.name)
