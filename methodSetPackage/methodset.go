@@ -1,6 +1,8 @@
 package methodSetPackage
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Circle struct {
 	radius float64
@@ -10,7 +12,7 @@ type Circle struct {
 func MethodSet() {
 	c := Circle{radius: 5}
 	c.calcArea()
-	fmt.Printf("%+v", c)
+	fmt.Printf("%+v\n", c)
 }
 
 func (c *Circle) calcArea() {

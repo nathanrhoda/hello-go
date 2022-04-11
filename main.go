@@ -5,14 +5,15 @@ import (
 	"main/castingPackage"
 
 	//"main/inputPackage"
-	orderFunctionPackage "main/OrderFunctionPackage"
 	"main/arrayPackage"
 	"main/deferPackage"
 	"main/functionPackage"
 	"main/methodSetPackage"
 	"main/operatorPackage"
+	"main/orderFunctionPackage"
 	"main/pointerPackage"
 	"main/structPackage"
+	"main/studentMethodSetPackage"
 	"main/testPackage"
 	"main/testPackage2"
 	"main/typePackage"
@@ -41,4 +42,5 @@ func main() {
 	pointerPackage.Input()
 	structPackage.Struct()
 	methodSetPackage.MethodSet()
+	studentMethodSetPackage.StudentMethods()
 }
